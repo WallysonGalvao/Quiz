@@ -1,0 +1,245 @@
+[{
+        "QuestionId": "1",
+        "Question": "Using SAP Landscape Transformation (SLT), you are replicating in real-time an SAP ERP system (source system) into an SAP HANA system. How can you check whether the source system and SLT are synchronized?",
+        "Answer": [
+            1,
+            2
+        ],
+        "Hint": true,
+        "Alternatives": [
+            "By executing the ABAP program :SAPLATRA_TOOL_TIMES in SLT and the SAP ERP system.",
+            "By executing the ABAP program :TZCUSTHELP in SLT and the SAP ERP system.",
+            "By comparing the system time of the operating systems in SLT and the SAP ERP system.",
+            "By comparing entries in table TTZCU (Customizing time zones) in SLT and the SAP ERP system."
+        ]
+    },
+    {
+        "QuestionId": "2",
+        "Question": "Which privileges required to view M_INITFILE_CONTENT?",
+        "Answer": [
+            1,
+            2
+        ],
+        "Hint": true,
+        "Alternatives": [
+            "TRACE ADMIN.",
+            "DATA ADMIN.",
+            "CATALOG read.",
+            "AUDIT OPERATOR."
+        ]
+    },
+    {
+        "QuestionId": "3",
+        "Question": "What do you need to update when migrate and SAP Business warehouse system to an SAP Hana database using the database migration option (DMO) of the software upgrade manager?",
+        "Answer": [
+            0,
+            3
+        ],
+        "Hint": true,
+        "Alternatives": [
+            "SPAMSANT for the source release.",
+            "SAP Hana lifecycle management tool.",
+            "software provisioning manager.",
+            "SAP host agent."
+        ]
+    },
+    {
+        "QuestionId": "4",
+        "Question": "Which tool can you use to setup system replication SAP HANA database system?",
+        "Answer": [
+            0
+        ],
+        "Hint": false,
+        "Alternatives": [
+            "Hdbnsutil.",
+            "Hdblcm.",
+            "Hdbsql.",
+            "HDB settings.sh."
+        ]
+    },
+    {
+        "QuestionId": "5",
+        "Question": "Which privilege required to configure kernel profile?",
+        "Answer": [
+            0
+        ],
+        "Hint": false,
+        "Alternatives": [
+            "SAP_INTERNAL HANA_SUPPORT.",
+            "Data admin.",
+            "INIFILE admin.",
+            "Trace admin."
+        ]
+    },
+    {
+        "QuestionId": "40",
+        "Question": "Which delivered role is mandatory for a system administrator in SAP HANA?",
+        "Answer": [
+            3
+        ],
+        "Hint": false,
+        "Alternatives": [
+            "IC MODELER",
+            "SAP_ALL",
+            "SYS_ADMIN",
+            "CONTENT_ADMIN"
+        ]
+    },
+    {
+        "QuestionId": "41",
+        "Question": "You need to read data from and write data to the Microsoft SQL server 2012 database using SAP Hana system. You do not need to store the data in SAP Hana.\nWhich date of provision method do you use?",
+        "Answer": [
+            2
+        ],
+        "Hint": false,
+        "Alternatives": [
+            "SAP Hana direct Extractor connection",
+            "SAP replication server",
+            "SAP Hana smart data access",
+            "SAP Data Services"
+        ]
+    },
+    {
+        "QuestionId": "42",
+        "Question": "Which trace allows you to record a query and to return it as Python program?",
+        "Answer": [
+            2
+        ],
+        "Hint": false,
+        "Alternatives": [
+            "user specific trace",
+            "SQL trace",
+            "performance trace",
+            "expensive statements trace"
+        ]
+    },
+    {
+        "QuestionId": "43",
+        "Question": "Application users report that a query sometimes runs much slower than usual. You suspect that the high system load is slowing down the query execution.\nWhere can you review the overall system workload when a query is executed?",
+        "Answer": [
+            0,
+            1
+        ],
+        "Hint": true,
+        "Alternatives": [
+            "SAP Hana studio",
+            "SQL trace",
+            "early watch alert",
+            "kernel trace"
+        ]
+    },
+    {
+        "QuestionId": "44",
+        "Question": "How can you remove add data backups both from the backup catalog and physically from the server?",
+        "Answer": [
+            3
+        ],
+        "Hint": false,
+        "Alternatives": [
+            "execute the command backup.sh -id -cl from the operating system",
+            "execute the SQL statement DELETE from m_backup_catalog where backup_ID = 2 <backup_ID> from the SQL console",
+            "open a shell and delete all files under $(DIR_INSTANCE) backup data",
+            "Select a backup on the backup catalog tab of the backup console and select delete older backups from the context menu"
+        ]
+    },
+    {
+        "QuestionId": "45",
+        "Question": "You need to retrieve data from SAP HANA that is restricted to a certain region and specific users. How can you implement this security strategy?",
+        "Answer": [
+            1
+        ],
+        "Hint": false,
+        "Alternatives": [
+            "By assigning SQL privileges to the necessary users",
+            "By assigning analytic privileges to the necessary users",
+            "By assigning system privileges to the necessary users",
+            "By assigning package privileges to the necessary users"
+        ]
+    },
+    {
+        "QuestionId": "46",
+        "Question": "You are replicating data in real-time from a source system to SAP HANA using System Landscape Transformation (SLT).\nThe source system had to be restored using a point-in-time recovery to an earlier point in time. The systems are now out of sync.\nHow can you synchronize the systems again?",
+        "Answer": [
+            0
+        ],
+        "Hint": false,
+        "Alternatives": [
+            "Select \"Stop Replication\" and \"Replicate\" in the Data Provisioning dialog",
+            "Restart the master job using transaction LTR in the SLT system",
+            "Run the hdbnsutil program on the command line",
+            "Select \"Suspend\" and \"Resume\" in the Data Provisioning dialog"
+        ]
+    },
+    {
+        "QuestionId": "47",
+        "Question": "Which of the following requires a dedicated network interface to SAP HANA?",
+        "Answer": [
+            2
+        ],
+        "Hint": false,
+        "Alternatives": [
+            "Backup destination",
+            "SAP HANA studio",
+            "SAP LT",
+            "SAP BusinessObjects Business Intelligence platform"
+        ]
+    },
+    {
+        "QuestionId": "48",
+        "Question": "What services must be configured and running on the SAP Hana server to monitor the SAP Hana instance in SAP Solution manager?",
+        "Answer": [
+            0,
+            3
+        ],
+        "Hint": true,
+        "Alternatives": [
+            "SAP host agent",
+            "compile service",
+            "preprocessor service",
+            "SAP SMD agent"
+        ]
+    },
+    {
+        "QuestionId": "49",
+        "Question": "What information is presented when you check the license key?",
+        "Answer": [
+            2
+        ],
+        "Hint": false,
+        "Alternatives": [
+            "SAP HANA edition type",
+            "SAP HANA support package number",
+            "SAP HANA licensed memory amount",
+            "SAP HANA build number"
+        ]
+    },
+    {
+        "QuestionId": "50",
+        "Question": "Which futures can you enable during the installation of the SAP Hana studio?",
+        "Answer": [
+            1,
+            2
+        ],
+        "Hint": true,
+        "Alternatives": [
+            "SAP Hana studio RSA plug-in",
+            "SAP Hana studio SAPUI5 plug-in",
+            "SAP Hana Studio database development",
+            "SAP Hana administration"
+        ]
+    },
+    {
+        "QuestionId": "114",
+        "Question": "You execute an authorization trace in the SAP HANA studio. Where can you review the outcome?",
+        "Answer": [
+            1
+        ],
+        "Hint": false,
+        "Alternatives": [
+            "In the result screen of the trace configuration.",
+            "In the indexserver trace diagnostic file.",
+            "In the monitoring view M_SERVICE_TRACES.",
+            "In the authorization dependency viewer."
+        ]
+    }
+]
